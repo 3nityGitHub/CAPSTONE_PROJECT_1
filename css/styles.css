@@ -19,7 +19,7 @@ li {
 }
 
 :root {
-  --ff-coco: 'COCOGOOSE', sans-serif;
+  --ff-goose: 'COCOGOOSE', sans-serif;
   --ff-lato: 'Lato', sans-serif;
   --lineColor: #ec5242;
   --mainColor: #f23f0a;
@@ -27,7 +27,7 @@ li {
 }
 
 .first_section {
-  background-image: url('../capstone-image/desktop-bg.png');
+  background-image: url('../capstone-image/desktop-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
@@ -176,14 +176,14 @@ li {
   color: var(--lineColor);
 }
 
-.theme {
+h1 {
   font-family: var(--ff-goose);
   line-height: 3.4375rem;
-  font-size: clamp(0.5rem, 1rem + 8vw, 2.125rem);
-  font-weight: 700;
-  color: #ec5242de;
+  font-size: clamp(0.5rem, 1rem + 10vw, 2.125rem);
+  font-weight: 600;
+  color: #ff422d;
   background-color: var(--mainColor);
-  background-image: url('../capstone-image/background-pattern2.jpg');
+  background-image: url('../capstone-image/text-bg.jpg');
   background-size: cover;
   background-blend-mode: multiply;
   background-clip: text;
@@ -478,6 +478,10 @@ hr {
   h1 {
     width: 80%;
     font-size: clamp(0.5rem, 1.5rem + 5vw, 3.125rem);
+    font-family: var(--ff-goose);
+    background-image: url('../capstone-image/text-bg.jpg');
+    color: #ff422d;
+    background-blend-mode: multiply;
   }
 
   .nav_container {
@@ -596,6 +600,7 @@ hr {
     padding: 4.6875rem 0 1.5625rem 0;
   }
 
+ 
   .top_section_container {
     text-align: left;
     max-width: 85%;
@@ -603,8 +608,9 @@ hr {
   }
 
   .main_section_content {
-    width: 47%;
+    width: 57%;
     gap: 0.625rem;
+    z-index: 999;
   }
 
   .second_section {

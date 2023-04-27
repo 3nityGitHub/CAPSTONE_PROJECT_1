@@ -20,6 +20,13 @@ li {
   list-style-type: none;
 }
 
+.first_section {
+  background-image: url('../capstone-image/desktop-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
 .contact_us {
   padding: 2.5rem 2.5rem 0.625rem 2.5rem;
   font: 400 0.9375rem var(--ff-lato);
