@@ -43,6 +43,7 @@ li {
   padding-bottom: 2.8125rem;
 }
 
+
 .about_logo_section {
   display: flex;
   flex-direction: column;
@@ -167,6 +168,31 @@ li {
 }
 
 @media only screen and (min-width: 768px) {
+
+  .top_section_container{
+    align-items: center;
+  }
+
+  .theme{
+    text-align: center;
+  }
+  .main_section_container{
+    display: flex;
+    align-items: center;
+  }
+
+  .main_section_content{
+    width: 80%;
+  }
+
+  .main_section_text{
+    background-color: #fff;
+  }
+
+  .about_logo_text{
+    width: 60%;
+  }
+  
   .previous_meetings {
     border-top: 1px solid #fff;
     padding: 3.125rem;
@@ -191,5 +217,13 @@ li {
     height: 12.5rem;
     cursor: pointer;
     margin-bottom: 0;
+  }
+  .footer_section{
+    background-color: var(--navColor);
+    color: aliceblue;
+  }
+
+  .fourth_section{
+    display: none;
   }
 }
