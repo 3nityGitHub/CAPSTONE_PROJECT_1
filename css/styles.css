@@ -183,7 +183,6 @@ h1 {
   font-weight: 600;
   color: #ff422d;
   background-color: var(--mainColor);
-  background-image: url('../capstone-image/text-bg.jpg');
   background-size: cover;
   background-blend-mode: multiply;
   background-clip: text;
@@ -479,7 +478,6 @@ hr {
     width: 80%;
     font-size: clamp(0.5rem, 1.5rem + 5vw, 3.125rem);
     font-family: var(--ff-goose);
-    background-image: url('../capstone-image/text-bg.jpg');
     color: #ff422d;
     background-blend-mode: multiply;
   }
