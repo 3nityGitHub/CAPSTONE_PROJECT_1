@@ -180,20 +180,16 @@ li {
     padding: 0.9375rem 6.25rem;
   }
 
- 
   .JBurg {
     width: 21.875rem;
     height: 12.5rem;
     cursor: pointer;
   }
 
-  
   .CTown {
     width: 21.875rem;
     height: 12.5rem;
     cursor: pointer;
     margin-bottom: 0;
   }
-
-  
 }

@@ -1,4 +1,4 @@
-//Hamburger menu for mobile
+// Hamburger menu for mobile
 const hamburgerMenu = document.querySelector('.hamburger_menu');
 const mobileNavLink = document.querySelector('.mobile_nav_link');
 const navContainer = document.querySelector('.nav_bar_container');
@@ -11,11 +11,11 @@ hamburgerMenu.addEventListener('click', () => {
 
 document.querySelectorAll('.mobile_link').forEach(() => navContainer.addEventListener('click', () => {
   hamburgerMenu.classList.remove('active');
-   mobileNavLink.classList.remove('active');
-    navContainer.classList.remove('active');
+  mobileNavLink.classList.remove('active');
+  navContainer.classList.remove('active');
 }));
 
-//Guest speaker list
+// Guest speaker list
 
 const guestSpeaker = [
   {
@@ -113,7 +113,6 @@ guestSpeaker.forEach((card) => {
 const showMoreLess = document.getElementById('show_more_bttn');
 
 showMoreLess.addEventListener('click', () => {
-  
   speakerContainer.classList.toggle('show_more_bttn');
   if (showMoreLess.innerHTML === 'SHOW MORE') {
     showMoreLess.innerHTML = 'SHOW LESS';
