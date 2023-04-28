@@ -181,12 +181,15 @@ h1 {
   line-height: 3.4375rem;
   font-size: clamp(0.5rem, 1rem + 10vw, 2.125rem);
   font-weight: 600;
-  color: #ff422d;
+  color: var(--lineColor);
+  background-image: url(../capstone-image/hands-on.jpg);
   background-color: var(--mainColor);
   background-size: cover;
-  background-blend-mode: multiply;
   background-clip: text;
-  background-position-y: bottom;
+  background-position-x: bottom;
+  background-blend-mode: multiply;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(245, 43, 21, 0.486);
   margin-bottom: 0.4375rem;
 }
 
@@ -199,7 +202,7 @@ h1 {
   font-size: 0.8125rem;
   font-family: var(--ff-lato);
   height: auto;
-  text-align: justify;
+  text-align: center;
   border: 0.25rem solid #fff;
   background-color: rgb(247, 247, 248);
 }
