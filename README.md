@@ -45,6 +45,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo](https://3nitygithub.github.io/CAPSTONE_PROJECT_1/)
+- [Project presentation](https://www.loom.com/share/32f3011548b34bdd998a501ba221c9f7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
